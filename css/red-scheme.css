@@ -451,6 +451,12 @@ button {
   border: 0;
 }
 
+button .iso-cat {
+  background-color: #ffebcd;
+  margin: 5px;
+  border-radius: 3px;
+}
+
 input.mainBtn:focus,
 input.mainBtn {
   background-color: #ff554e;
