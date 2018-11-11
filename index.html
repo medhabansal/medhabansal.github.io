@@ -12,6 +12,9 @@
 	<link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700itali" rel="stylesheet">
 	<link href="http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,200,100,600" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="css/magnific-popup.css">
@@ -40,6 +43,33 @@
 			background: #800000;
 			border-color: #800000;
 		}
+        /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+        .icon-bar {
+            position: fixed;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+        /* Style the icon bar links */
+        .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+        }
+        .youtube {
+            background: #bb0000;
+            color: white;
+        }
+        .facebook {
+            background: #bb0000;
+            color: white;
+            border-bottom: 2px solid white;
+        }
 	</style>
 
 	<!-- JavaScripts -->
@@ -51,6 +81,10 @@
 
 </head>
 <body>
+<div class="icon-bar">
+    <a href="https://www.facebook.com/nirmaldham.delhi" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="https://www.youtube.com/c/nirmaldhamlive/live" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+</div>
 	<div class="responsive_menu">
         <ul class="main_menu">
             <li><a href="index.html">Home</a></li>
@@ -170,11 +204,13 @@
 				<div class="tm-container tm-container-wide">
 					<div class="tm-news-item">
 
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-item-img-container">
-							<img src="images/subtle-body.jpg" alt="Image" class="img-fluid tm-news-item-img">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 tm-news-item-img-container">
+							<!--<img src="images/subtle-body.jpg" alt="Image" class="img-fluid tm-news-item-img">-->
+							<!--<img src="images/subtlebodychart5.png" alt="Image" class="img-fluid tm-news-item-img">-->
+							<img src="images/subtlegif.gif" alt="Image" class="img-fluid tm-news-item-img">
 						</div>
 
-						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 tm-news-container">
 							<h2 class="tm-news-title dark-gray-text">About Sahaja Yoga</h2>
 							<p class="tm-news-text">Sahaja Yoga is a unique method of meditation introduced in 1970 by Shri Mataji Nirmala Devi by which Self Realization (Kundalini awakening) is achieved effortlessly. Through this process an inner transformation takes place by which one becomes moral, united, integrated and balanced. It opens the door to a new dimension in human awareness, whose benefits are experienced by hundreds of thousands worldwide.</p>
 							<a href="about-sahaja-yoga.html" class="btn tm-light-blue-bordered-btn tm-news-link">Read more</a>
@@ -236,9 +272,8 @@ decided to leave the physical aspect of Her most auspicious Incarnation.</p>
 			        				<a href="blog.html"><img src="images/floral_motifs1.png" alt="" class="img-circle"></a>
 			        			</div>
 			        			<div class="blog-post-content">
-			        				<h4 class="post-title"><a href="blog.html">International Birthday Puja – 2018</a></h4>
-											<div class="meta-post-date"> <a href="files/International_ Birthday_Puja_Seminar_2018_Circular_Invitation.pdf" target="_blank">Invitation Circular</a></div>
-											<span class="meta-post-date"> <a href="files/International_ Birthday_Puja_Annexure-1.pdf" target="_blank">Annexure-1</a> | <a href="files/International_ Birthday_Puja_Annexure-2.pdf" target="_blank">Annexure-2</a></span>
+			        				<h4 class="post-title"><a href="blog.html">Puja Schedule (tentaive) – 2019</a></h4>
+											<div class="meta-post-date"> <a href="files/PujaSchedule2019.pdf" target="_blank">Schedule</a></div>
 			        				<!-- <span class="meta-post-date">12 February 2084</span> -->
 			        			</div>
 			        		</div> <!-- /.blog-post -->
@@ -249,9 +284,9 @@ decided to leave the physical aspect of Her most auspicious Incarnation.</p>
 			        				<a href="blog.html"><img src="images/floral_motifs2.png" alt="" class="img-circle"></a>
 			        			</div>
 			        			<div class="blog-post-content">
-			        				<h4 class="post-title"><a href="blog.html">Param Chaitanya Puja Seminar - 2018</a></h4>
-											<div class="meta-post-date"> <a href="files/Param_Chaitanya_Puja_Seminar_2018_Invitation_Circular.pdf" target="_blank">Invitation Circular</a></div>
-											<span class="meta-post-date"> <a href="files/Param_Chaitanya_Annexure_1.pdf" target="_blank">Annexure-1</a> | <a href="files/Param_Chaitanya_Annexure_2.pdf" target="_blank">Annexure-2</a></span>
+			        				<h4 class="post-title"><a href="blog.html">International Diwali Puja - 2018</a></h4>
+                                    <div class="meta-post-date"> <a href="files/DiwaliPuja2018.pdf" target="_blank">Invitation Circular</a></div>
+                                    <!--<span class="meta-post-date"> <a href="files/Param_Chaitanya_Annexure_1.pdf" target="_blank">Annexure-1</a> | <a href="files/Param_Chaitanya_Annexure_2.pdf" target="_blank">Annexure-2</a></span>-->
 			        			</div>
 			        		</div> <!-- /.blog-post -->
 			        	</div> <!-- /.col-md-4 -->
@@ -261,22 +296,35 @@ decided to leave the physical aspect of Her most auspicious Incarnation.</p>
 			        				<a href="blog.html"><img src="images/floral_motifs1.png" alt="" class="img-circle"></a>
 			        			</div>
 			        			<div class="blog-post-content">
-			        				<h4 class="post-title"><a href="blog.html">Puja Schedule - 2018</a></h4>
-			        				<div class="meta-post-date"> <a href="files/PujaSchedule2018.pdf" target="_blank">Pujas at Nirmal Dham</a></div>
+                                    <h4 class="post-title"><a href="blog.html">International Birthday Puja – 2018</a></h4>
+                                    <div class="meta-post-date"> <a href="files/International_ Birthday_Puja_Seminar_2018_Circular_Invitation.pdf" target="_blank">Invitation Circular</a></div>
+                                    <span class="meta-post-date"> <a href="files/International_ Birthday_Puja_Annexure-1.pdf" target="_blank">Annexure-1</a> | <a href="files/International_ Birthday_Puja_Annexure-2.pdf" target="_blank">Annexure-2</a></span>
 			        			</div>
 			        		</div> <!-- /.blog-post -->
 			        	</div> <!-- /.col-md-4 -->
 			        </div> <!-- /.row -->
 					<div class="row latest-posts">
-			        	<div class="col-md-4 col-sm-6">
+			        	<!--<div class="col-md-4 col-sm-6">-->
+			        		<!--<div class="blog-post clearfix">-->
+			        			<!--<div class="thumb-post">-->
+			        				<!--<a href="blog.html"><img src="images/floral_motifs2.png" alt="" class="img-circle"></a>-->
+			        			<!--</div>-->
+			        			<!--<div class="blog-post-content">-->
+			        				<!--<h4 class="post-title"><a href="blog.html">Appeal to foreign Sahaja Yogis</a></h4>-->
+			        				<!--<div class="meta-post-date"> <a href="files/Appeal_to_Foreigner_Sahaja_Yogis_Construction_of_Holy_Shrine.pdf" target="_blank">Construction of Shri Mataji's Holy Shrine</a></div>-->
+			        			<!--</div>-->
+			        		<!--</div> &lt;!&ndash; /.blog-post &ndash;&gt;-->
+			        	<!--</div> &lt;!&ndash; /.col-md-4 &ndash;&gt;-->
+                        <div class="col-md-4 col-sm-6">
 			        		<div class="blog-post clearfix">
 			        			<div class="thumb-post">
 			        				<a href="blog.html"><img src="images/floral_motifs2.png" alt="" class="img-circle"></a>
 			        			</div>
-			        			<div class="blog-post-content">
-			        				<h4 class="post-title"><a href="blog.html">Appeal to foreign Sahaja Yogis</a></h4>
-			        				<div class="meta-post-date"> <a href="files/Appeal_to_Foreigner_Sahaja_Yogis_Construction_of_Holy_Shrine.pdf" target="_blank">Construction of Shri Mataji's Holy Shrine</a></div>
-			        			</div>
+                                <div class="blog-post-content">
+                                    <h4 class="post-title"><a href="blog.html">Param Chaitanya Puja Seminar - 2018</a></h4>
+                                    <div class="meta-post-date"> <a href="files/Param_Chaitanya_Puja_Seminar_2018_Invitation_Circular.pdf" target="_blank">Invitation Circular</a></div>
+                                    <span class="meta-post-date"> <a href="files/Param_Chaitanya_Annexure_1.pdf" target="_blank">Annexure-1</a> | <a href="files/Param_Chaitanya_Annexure_2.pdf" target="_blank">Annexure-2</a></span>
+                                </div>
 			        		</div> <!-- /.blog-post -->
 			        	</div> <!-- /.col-md-4 -->
 			        	<div class="col-md-4 col-sm-6">
@@ -284,10 +332,10 @@ decided to leave the physical aspect of Her most auspicious Incarnation.</p>
 			        			<div class="thumb-post">
 			        				<a href="blog.html"><img src="images/floral_motifs1.png" alt="" class="img-circle"></a>
 			        			</div>
-			        			<div class="blog-post-content">
-			        				<h4 class="post-title"><a href="blog.html">Shree Adishakti Peetha Nirmal Dham, Delhi, India</a></h4>
-			        				<div class="meta-post-date"> <a href="files/The Vaikuntha on the surface of Mother Earth.pdf" target="_blank">The Vaikunth on Mother Earth</a></div>
-			        			</div>
+                                <div class="blog-post-content">
+                                    <h4 class="post-title"><a href="blog.html">Puja Schedule - 2018</a></h4>
+                                    <div class="meta-post-date"> <a href="files/PujaSchedule2018.pdf" target="_blank">Pujas at Nirmal Dham</a></div>
+                                </div>
 			        		</div> <!-- /.blog-post -->
 			        	</div> <!-- /.col-md-4 -->
 			        	<div class="col-md-4 col-sm-6">
